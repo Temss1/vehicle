@@ -1,0 +1,50 @@
+
+body {
+  font-family: "Arial", sans-serif;
+  
+}
+
+.navbar {
+  background-color: #1E40AF; /* Primary blue */
+}
+
+.hero-section {
+  background-color: #ffffff; /* White */
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  color: #1E40AF; /* Primary blue */
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  color: #6c757d; /* Gray */
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  background-color: #1E40AF; /* Primary blue */
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: #163a8f; /* Darker blue */
+}
+
+.sidebar {
+  background-color: #f8f9fa; /* Light gray */
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #1E40AF; /* Primary blue */
+}

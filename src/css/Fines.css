@@ -1,0 +1,70 @@
+.fines-container {
+    padding: 20px;
+  }
+  
+  .fines-card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    padding: 20px;
+  }
+  
+  .fines-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .fines-container h3 {
+    font-weight: bold;
+  }
+  
+  .fines-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .fines-table th,
+  .fines-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .fines-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .fine-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .status-paid {
+    background: #28a745;
+    color: white;
+  }
+  
+  .status-unpaid {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .pay-now-btn {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay-now-btn:hover {
+    background: #0056b3;
+  }
+  

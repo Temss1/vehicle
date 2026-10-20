@@ -1,0 +1,33 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.sidebar {
+  width: 250px;  /* Fixed width for consistency */
+  background-color: #004085;
+  padding: 20px;
+  color: white;
+  height: 120vh;
+}
+
+.profile-content {
+  flex-grow: 1;  /* Take up remaining space */
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 40px;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.sidebar .nav-link {
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+.history-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.history-card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+  font-weight: bold;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+.table td.text-success {
+  font-weight: bold;
+  color: green;
+}
+
+.table td.text-danger {
+  font-weight: bold;
+  color: red;
+}

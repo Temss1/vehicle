@@ -1,0 +1,76 @@
+/* Register Page Styles */
+.register-page {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.register-card {
+  background: white;
+  padding-top: 40px;
+  margin: auto;
+  width: 450px;
+  height: auto; /* Adjusted to fit content */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-card .card-body {
+  padding: 2rem;
+}
+
+.register-card h2 {
+  font-size: 30px;
+  color: #1E40AF; 
+  padding-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.register-card .form-group {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+.register-card .form-label {
+  font-weight: 500;
+  color: #333;
+  margin-right: 16px;
+  flex-shrink: 0; /* Prevent label from shrinking */
+  width: 120px; /* Fixed width for labels */
+}
+
+.register-card .form-control {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  flex-grow: 1; /* Allow input fields to take remaining space */
+}
+
+.register-card .btn-primary {
+  background-color: #1E40AF; /* Primary blue */
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.register-card .btn-primary:hover {
+  background-color: #163a8f; /* Darker blue */
+}
+
+.register-card p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.register-card a {
+  color: #1E40AF;
+  text-decoration: none;
+}
+
+.register-card a:hover {
+  text-decoration: underline;
+}

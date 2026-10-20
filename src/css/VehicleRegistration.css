@@ -1,0 +1,102 @@
+/* Main container for the dashboard */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+}
+
+.sidebar {
+  width: 250px;  /* Fixed width for consistency */
+  background-color: #004085;
+  padding: 20px;
+  color: white;
+  height: 120vh;
+}
+
+/* Main content area (Vehicles page) */
+.vehicle-container {
+  flex: 1;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Card Styling */
+.vehicle-container .card {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header text */
+.vehicle-container h3 {
+  color: #004085;
+  font-weight: bold;
+}
+
+/* Add Vehicle Button */
+.vehicle-container .btn-primary {
+  background: #004085;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.vehicle-container .btn-primary:hover {
+  background: #004085;
+}
+
+/* Vehicle Form Card */
+.vehicle-form {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Form Header */
+.vehicle-form h5 {
+  text-align: center;
+  color: #004085;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Form Inputs */
+.vehicle-form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Form Button */
+.vehicle-form button {
+  background: #28a745;
+  border: none;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.vehicle-form button:hover {
+  background: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .vehicle-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .vehicle-form {
+    padding: 15px;
+  }
+}

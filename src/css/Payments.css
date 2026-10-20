@@ -1,0 +1,29 @@
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.payment-card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ffffff, #f3f4f6);
+}
+
+.payment-container h3 {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-secondary {
+  font-weight: bold;
+}
+
+.text-success {
+  font-weight: bold;
+  font-size: 20px;
+  color: #28a745;
+}
